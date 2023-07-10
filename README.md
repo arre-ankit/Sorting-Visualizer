@@ -1,6 +1,6 @@
 # Sorting-Visualizer
 ![Project Preview Image](https://github.com/arre-ankit/Sorting-Visualizer/blob/main/Preview.png)
-👀 [Live Preview](https://github.com/arre-ankit/Sorting-Visualizer)
+👀 [Live Preview](https://arre-ankit.github.io/Sorting-Visualizer/)
 
 ## 📙 Description
 A user-friendly website that shows how sorting algorithms works using animations.The elements of the array are represented by bars, and different colors are used to show the sorting operations.
