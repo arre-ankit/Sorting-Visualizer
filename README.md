@@ -20,4 +20,4 @@ Links providing information about the algorithms:
 - [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
 - [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
 - [Quick Sort](https://en.wikipedia.org/wiki/Quicksort)
-- [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)
+- [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)
