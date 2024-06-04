@@ -261,49 +261,6 @@ function quick_sort_partition (start, end) {
     return i-1; // return the position of the pivot
 }
 
-function heap() {
-    set_timeout_delay = 0;
-  
-    if (regenerate) {
-      generate_array();
-    }
-  
-    heapSort();
-  
-    regenerate = true;
-  }
-  
-  function heapSort() {
-    for (let i = Math.floor(array_size / 2) - 1; i >= 0; i--) {
-      heapify(array_size, i);
-    }
-  
-    for (let i = array_size - 1; i > 0; i--) {
-      swap(0, i);
-      div_update(divs[i], div_sizes[i], color_switch_mark, true);
-      heapify(i, 0);
-    }
-  }
-  
-  function heapify(size, index) {
-    let largest = index;
-    let left = 2 * index + 1;
-    let right = 2 * index + 2;
-  
-    if (left < size && div_sizes[left] > div_sizes[largest]) {
-      largest = left;
-    }
-  
-    if (right < size && div_sizes[right] > div_sizes[largest]) {
-      largest = right;
-    }
-  
-    if (largest !== index) {
-      swap(index, largest);
-      div_update(divs[index], div_sizes[index], color_switch_mark, true);
-      heapify(size, largest);
-    }
-  }
   
   function swap(i, j) {
     let temp = div_sizes[i];
